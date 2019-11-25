@@ -19,6 +19,9 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
+h2{
+    font-size: 38px;
+}
 .btn{
     background: #3726F2;
     color: #FFFFFF;
@@ -40,8 +43,17 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     align-items: center;
 }
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 /* Header */
 .header{
+    height: 90vh;
 }
 .nav{
     padding-top: 59px;
@@ -50,7 +62,6 @@ h1,h2,h3,h4,h5,h6{
 .Logo{
 }
 .search{
-
 }
 .menu{
 }
@@ -91,17 +102,65 @@ h1,h2,h3,h4,h5,h6{
     width: 65px;
     height: 65px;
 }
+/* section = "problems" */
+
+.problems{
+    padding-top: 130px;
+}
+.about{
+
+}
+.about__title{
+    margin-bottom: 30px;
+}
+.about__text{
+
+}
+.about__author{
+    background: url("../img/author.jpg") no-repeat left center;
+    padding: 5px 0 5px 96px;
+    margin-top: 61px;
+}
+.about__name{
+    font-size: 22px;
+}
+p.about_dop{
+    margin-bottom: 0;
+}
+
+/* section="services" */
+
+.services{
+    padding-top: 142px;
+
+}
+.section-title{
 
 
+}
+.section-title__label{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.4em;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
+.section-title__heading{
+}
+.serv-list {
+    margin-top: 70px;
+    margin-bottom: 115px;
 
-
-
-
-
-
-
-
-
+}
+.serv-list__item{
+    margin-bottom: 21px;
+}
+.serv-list_left{
+    margin-left: 37px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left;
+}
 
 
 
