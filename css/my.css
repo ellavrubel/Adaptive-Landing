@@ -302,6 +302,9 @@ p.about_dop{
     padding-top: 248px;
     margin-bottom: 73px;
 }
+.section-title__heading_review{
+    font-size: 20px;
+}
 .contributor{
     margin-top: 121px;
 
@@ -345,12 +348,146 @@ p.about_dop{
     margin-bottom: 109px;
 }
 
+/* @Media */
+@media screen and (max-width: 1200px) {
+    .work-tabs {
+        margin-left: 0;
+    }
+    .works-wrap__item{
+        width: 30%;
+    }
+    .works-wrap__item img{
+        display: block;
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 992px) {
+    .contributor-carousel {
+        margin-top: 50px;
+    }
+    .contributor{
+        margin-top: 20px;
+    }
+    .contributor__title {
+        margin-top: 30px;
+    }
+    .works-down__btn{
+        margin-left: 0;
+    }
+}
 
-
-
-
-
+@media screen and (max-width: 768px) {
+    .hero {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        top: 0;
+        margin-top: 30px;
+    }
+    .video {
+        bottom: 30%;
+        height: 50%;
+    }
+    .vh-dependent {
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+    .offer-cont__title{
+        font-size: 45px;
+    }
+    .nav{
+        margin-bottom: 60px;
+    }
+    .poster{
+        max-width: 70%;
+        margin-bottom: 40px;
+    }
+    .collage{
+        position: relative;
+        width: 100%;
+    }
+    .result{
+        padding-top: 100px;
+    }
+    .easy{
+        margin-left: 0;
+    }
+    .works{
+        padding-top: 100px;
+    }
+    .works-wrap {
+        margin-top: 40px;
+    }
+    .work-tabs {
+        margin-top: 35px;
+    }
+    .services{
+        padding-top: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .testimonials{
+        padding-top: 100px;
+    }
+    .clients{
+        padding-top: 60px;
+    }
+    .clients .section-title__heading{
+        margin-bottom: 30px;
+    }
+    .clients-row{
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 576px){
+    .serv-list {
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    .serv-list_left {
+        margin-left: 10px;
+    }
+    .footer{
+        margin-top: 65px;
+    }
+    .clients-row{
+        flex-direction: column;
+       text-align: center;
+    }
+    .clients-row__item{
+        margin-bottom: 30px;
+    }
+    .work-tabs{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    h2 {
+        font-size: 25px;
+    }
+    .poster {
+        max-width: 90%;
+    }
+    .collage img {
+        width: 250px;
+        height: 353px;
+    }
+    .works-tabs{
+        padding-top: 50px;
+    }
+    .result{
+        padding-top: 50px;
+    }
+    .offer-cont__title {
+        font-size: 30px;
+    }
+    .clients{
+        padding-top: 0;
+    }
+}
 
 
 
